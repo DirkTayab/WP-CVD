@@ -1470,3 +1470,6 @@ textarea {
   height: 40rem;
   object-fit: cover;
 }
+.updatescard .tag {
+  display: flex;
+}

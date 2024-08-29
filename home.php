@@ -24,7 +24,7 @@
                         <td>
                           <a href=""><i class="fa-solid fa-user"></i></a>
                         </td>
-                        <td><?php echo get_the_author_meta('first_name')?></td>
+                        <td><?php echo get_the_author_meta('display_name')?></td>
                         <td>
                           <a href=""
                             ><i class="fa-solid fa-calendar-days"></i
@@ -34,11 +34,11 @@
                         <td>
                           <a href=""><i class="fa-solid fa-tags"></i></a>
                         </td>
-                        <td>
-                        <?php $tags = get_tags(); 
+                        <td class='tag'>
+                        <?php $tags = get_the_tags(); 
                         if($tags) {
                             foreach($tags as $tag){ ?>
-                                <li> <?php echo $tag->name;?> | </li>
+                                <li> <?php echo $tag->name;?> &nbsp; </li>
                            <?php }}?>
                         </td>
                       </tr>
