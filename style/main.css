@@ -575,6 +575,9 @@ img {
 .recent__img {
   width: 15rem;
 }
+.recent__img img {
+  height: 15rem;
+}
 .recenttext {
   display: flex;
   flex-direction: column;
@@ -1466,7 +1469,7 @@ textarea {
   font-size: 26px;
 }
 .updatescard__img img {
-  width: 100%;
+  /* width: 100%; */
   height: 40rem;
   object-fit: cover;
 }

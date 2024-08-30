@@ -4,7 +4,7 @@
       <div class="container">
         <div class="updates__wrapper">
           <div class="updates__title">
-            <sh2> LATEST TRENDS </sh2>
+            <sh2><?php single_tag_title()?> </sh2>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div class="updatesseparate">
@@ -86,7 +86,6 @@
                   $trends = new WP_Query(array (
                     'post_type' => 'post',
                     'posts_per_page' => 3,
-                    'orderby' => 'most_recent'
                   ))
                 ?>
 
@@ -131,6 +130,6 @@
           </div>
         </div>
       </div>
-</section>
+    </section>
 
 <?php get_footer()?>

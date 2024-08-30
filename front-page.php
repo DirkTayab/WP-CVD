@@ -63,8 +63,8 @@
       <div class="container">
         <div class="aboutme__wrapper">
           <div class="aboutme__img">
-            <img src="./_static/img/headshot/1-min.jpg" alt="" />
-            <img src="./_static/img/Ellipse 1.png" alt="" />
+            <img src="./img/1-min.jpg" alt="" />
+            <!-- <img src="./_static/img/Ellipse 1.png" alt="" /> -->
           </div>
           <div class="aboutme--text">
             <h3>ABOUT ME</h3>
